@@ -1,18 +1,16 @@
-# Dynamic Resource Allocation for Servers Using CUDA
+# QoS Compliance Prediction in Server Configurations
+
+This repository contains a robust Python code base for predicting Quality of Service (QoS) compliance in server configurations using machine learning. The project includes modules for data loading, feature engineering, model training, evaluation, and visualization. Additionally, it provides a script to generate synthetic test data that simulates real-world server performance.
 
 ## Overview
-This project implements a **high-performance dynamic resource allocation system** for **server environments**. The system is designed for **cloud computing, HPC (High-Performance Computing), AI inference, and distributed databases**.
 
-## Features
-- **Real-time task scheduling** for multi-GPU and CPU workloads.
-- **CUDA-optimized dynamic memory management** for server applications.
-- **Scalable load balancing** across cloud-based and on-premise servers.
-- **Low-latency resource allocation** using **persistent kernels and CUDA streams**.
-- **Kubernetes-ready for containerized environments**.
+The experimental pipeline aims to:
+- **Generate or load server configuration data:** Simulate various hardware and software configurations along with QoS performance metrics.
+- **Preprocess the data:** Scale numerical features and one-hot encode categorical features.
+- **Train a machine learning model:** Use models like Random Forest or Decision Tree to predict whether a server configuration meets QoS requirements.
+- **Evaluate the model:** Calculate accuracy, precision, recall, and F1-score, and plot an ROC curve for visual performance assessment.
+- **Generate synthetic test data:** Create CSV files with synthetic data for testing and further experimentation.
 
-## Why It’s Challenging
-- **Dynamic workloads:** Servers handle unpredictable tasks (AI, ML, DB queries).
-- **Load imbalance:** Optimizing allocation across multiple CPUs.
-- **Latency-sensitive operations:** Ensuring rapid scheduling with **microsecond response times**.
+## Directory Structure
 
-## System Architecture
+
