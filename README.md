@@ -1,7 +1,7 @@
 # Dynamic Resource Allocation for Servers Using CUDA
 
 ## Overview
-This project implements a **high-performance dynamic resource allocation system** for **server environments**, leveraging **CUDA** to efficiently distribute computational tasks across GPUs and CPUs in real-time. The system is designed for **cloud computing, HPC (High-Performance Computing), AI inference, and distributed databases**.
+This project implements a **high-performance dynamic resource allocation system** for **server environments**. The system is designed for **cloud computing, HPC (High-Performance Computing), AI inference, and distributed databases**.
 
 ## Features
 - **Real-time task scheduling** for multi-GPU and CPU workloads.
